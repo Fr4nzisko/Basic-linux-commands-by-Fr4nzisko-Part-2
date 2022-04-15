@@ -65,7 +65,7 @@ cat lista.txt | grep -i ^l
 ````
 
 
-#find (fain) para busqueda de ficheros / directorio*
+# find (fain) para busqueda de ficheros / directorio
 
 *Ignorar mayúsculas y minúsculas*
 ````bash
@@ -96,7 +96,7 @@ find / -user l0b4
 ````
 
 
-#*Busca texto que cumplan con determinado patrón*
+# Busca texto que cumplan con determinado patrón
 ````bash
 awk
 ````
