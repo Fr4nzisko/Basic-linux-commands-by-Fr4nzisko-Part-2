@@ -76,6 +76,16 @@ cat lista.txt | grep -i ^l
 type d
 ````
 
+*ejempplo de como buscar un fichero y enviar el error a /dev/null
+````bash
+find . -type f -name user.txt 2>/dev/null
+````
+
+*ejempplo de como buscar un directorio y enviar el error a /dev/null
+````bash
+find . -type d -name hackthebox 2>/dev/null
+````
+
 *Buscar ficheros*
 ````bash
 type f
